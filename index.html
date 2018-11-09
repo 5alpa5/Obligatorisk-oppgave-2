@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Obligatorisk oppgave 2</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="headname">
+          <h1><span class="highlight">HCI</span> og brukervennlighet</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Startside</a></li>
+            <li><a href="design.html">Design thinking</a></li>
+            <li><a href="analyse.html">Behovsanalyse</a></li>
+            <li><a href="info.html">IA</a></li>
+            <li><a href="utforming.html">UU</a></li>
+            <li><a href="gdpr.html">GDPR</a></li>
+            <li><a href="grafisk.html">Grafisk design</a></li>
+            <li><a href="prototyping.html">Prototyping og responsive design</a></li>
+
+            </details>
+          </ul>
+          <div style="clear: both"></div>
+        </nav>
+       </div>
+       <div class="responsive-bar">
+        <h4 class="menu">Menu</h4>
+        <div style="clear: both"></div>
+       </div>
+    </header>
+
+
+   <section id="intro">
+     <div class="container">
+       <h1>Introduksjon</h1>
+       <p>HCI er en for kortelse for "Human Computer Intercation" og er rett og slett studiet av hvordan mennesket og maskin jobber sammen. Alle UI's(User interfaces) eller brukergrensesnitt som det heter på norsk er en form for human computer Intercation. GUI's eller grafiske brukergrensesnitt som Windows, IOS, Andriod og Mac er nok de mest brukte. Disse er eksempler som gjør at vi kan bruke/manipulere maskinene på effektiv, enkel og trygg måte.
+       <h3>HCI-elementer</h3>
+       <ul>
+         <li>Kognisjon og persepsjon</li>
+         -Hvordan vi oppfatter verden (teori)
+         <li>Brukerstyrt/brukerfokusert design</li>
+         -Eller system/oppgavefokusert
+         <li>Design av interaksjon/brukergrensesnitt</li>
+         <li>Brukertesting</li>
+       </ul>
+        Når man snakker om brukervennlighet kan man betegne det som hvor lett eller vanskelig interaksjonen er for mennesket. HCI forskere som studerer hvordan mennesket og maskin jobber sammen, designer også teknologi ut ifra det de lærer om observasjonene de gjør. Dette fører til at vi får teknologi som er mer brukervennlig og som lar oss mennesker samhandle med maskinene på en mer effektiv, trygg og enkel måte uten store problemer.  </p>
+     </div>
+   </section>
+
+   <section id="middle">
+    <div class="container">
+     <h1><span class="highlight">Bilde</span>karusell</h1>
+     <p>(Hold over bildet for å fryse slidingen)</p>
+    </div>
+   </section>
+
+   <div id="slider">
+
+     <figure>
+    <a href="design.html">
+      <img src="img/Designthinking.jpg" height="400px" width="800px" alt="Designthinking">
+    </a>
+    <a href="analyse.html">
+      <img src="img/behov.png" height="400px" width="800px" alt="Behovsanalyse">
+    </a>
+    <a href="info.html">
+      <img src="img/info.png" height="400px" width="800px" alt="Informasjonsarkitektur">
+    </a>
+    <a href="utforming.html">
+      <img src="img/Universell.jpg" height="400px" width="800px" alt="Universell utforming">
+    </a>
+    <a href="gdpr.html">
+      <img src="img/GDPR.png" height="400px" width="800px" alt="General Data Protection Regulation">
+    </a>
+    <a href="grafisk.html">
+      <img src="img/Graphic.jpg" height="400px" width="800px" alt="Grafisk design">
+    </a>
+     </figure>
+   </div>
+
+
+  <footer>
+   <div class="container">
+    <p><span class="highlight">Laget</span> av Christian Vian</p>
+   </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+     $(".menu").click(function(){
+       $("nav").slideToggle(500);
+     })
+   })
+  </script>
+  </body>
+</html>

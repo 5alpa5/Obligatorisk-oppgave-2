@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Obligatorisk oppgave 2</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="headname">
+          <h1><span class="highlight">GD</span>PR</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Startside</a></li>
+            <li><a href="design.html">Design thinking</a></li>
+            <li><a href="analyse.html">Behovsanalyse</a></li>
+            <li><a href="info.html">IA</a></li>
+            <li><a href="utforming.html">UU</a></li>
+            <li class="current"><a href="gdpr.html">GDPR</a></li>
+            <li><a href="grafisk.html">Grafisk design</a></li>
+            <li><a href="prototyping.html">Prototyping og responsive design</a></li>
+          </ul>
+        </nav>
+       </div>
+       <div class="responsive-bar">
+        <h4 class="menu">Menu</h4>
+        <div style="clear: both"></div>
+       </div>
+    </header>
+
+    <section id="main">
+     <div class="container">
+       <article id="main-col">
+        <h3>GDPR</h3>
+        <p>GDPR er en forkortelse for General Data Protection Regulation og er EUs nye rammeverk for personvern. Den tredde i kraft mai 2018 som et resulatat av at man ønsket å bedre enkeltpersonens mulighet for å kontrollere opplysninger registrer om dem selv. EU mente også at opprettelsen av like regler for alle medlemsland ville tjened den økonomiske utviklingen i dette området. Før GDPR tredde inn gjorde nettsider det de ville med alle dataene de hentet inn om deg, hovedsakelig selge personopplysninger til markedsførere som kjøper annonsplasser. Det vil si at de kjøper opplysninger om hva du ser på, hva som interesserer deg slik at du får annonser som passer deg f.eks.</p>
+        <img src="img/gdpr.png" height="400px" width=""="200px">
+        <p>Etter GDPR tredde inne har det blitt lagt mye mer vekt på samtykke om deling og selging av personopplysninger. Det har kommet samtykke per formål, selv i samme applikasjon, profilering og deling av data må ha eksplisitt samtykke, samtykketekst skal være kort og forståelig. Det har blitt lagt opp til et strengt vern, og brudd kan medføre strenge straffer på opptil 4% av en den samlede omsetningen til virksomheten.</p>
+        <h3>Viktige begreper</h3>
+        <ul>
+          <li>Personopplysning: Alt som knyttes til deg som person. Navn, adresse, telefonnummer, epost, IP-adresse, bilnummer, bilder, fødselsnummer, det du skriver på facebook… osv</li>
+
+          <li>Atferdsmønstre: Hva du gjør, hvor du beveger deg, hva du handler/søker etter/ser på…</li>
+
+          <li>Særlige kategorier: rasemessig og etnisk bakgrunn, politisk, filosofisk, religiøs oppfatning, om du har vært mistenkt, tiltalt, siktet, eller dømt for en straffbar handling, helseforhold, seksuelle forhold, medlemskap i fagforeninger. Visse former for biometri og genetiske opplysninger</li>
+          <h3>hvem har rettigheter og hvem har plikter?</h3>
+          <p>Plikter</p>
+          <ul>
+            <li>Behandlingsansvarlig – Den som bruker personopplysninger</li>
+            <li>Databehandler – Den som håndterer opplysningene</li>
+            <li>Underleverandør – Kan benyttes av databehandler</li>
+            <li>Reguleres av Databehandleravtaler</li>
+          </ul>
+          <p>Rettigheter</p>
+          <ul>
+            <li>Den registerte</li>
+          </ul>
+          <p>Enhver behandling av personopplysninger krever hjemmel eller behandligsgrunnlag.</p>
+
+        </ul>
+       </article>
+     </div>
+    </section>
+
+
+
+
+
+  <footer>
+   <div class="container">
+    <p><span class="highlight">Laget</span> av Christian Vian</p>
+   </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+     $(".menu").click(function(){
+       $("nav").slideToggle(500);
+     })
+   })
+  </script>
+  </body>
+</html>

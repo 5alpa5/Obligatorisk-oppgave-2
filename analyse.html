@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Obligatorisk oppgave 2</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="headname">
+          <h1><span class="highlight">Behovs</span>analyse</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Startside</a></li>
+            <li><a href="design.html">Design thinking</a></li>
+            <li class="current"><a href="analyse.html">Behovsanalyse</a></li>
+            <li><a href="info.html">IA</a></li>
+            <li><a href="utforming.html">UU</a></li>
+            <li><a href="gdpr.html">GDPR</a></li>
+            <li><a href="grafisk.html">Grafisk design</a></li>
+            <li><a href="prototyping.html">Prototyping og responsive design</a></li>
+          </ul>
+        </nav>
+       </div>
+       <div class="responsive-bar">
+        <h4 class="menu">Menu</h4>
+        <div style="clear: both"></div>
+       </div>
+    </header>
+
+    <section id="main">
+     <div class="container">
+       <article id="main-col">
+         <h1>Formålet</h1>
+         <p>Formålet med behovsanalyse er å avdekke og påvise kundens behov, få frem kundens krav og ønsker. Finnet ut hva problemet er og for hvem.</p>
+         <ul>
+           <li>Bli kjent med brukeren og brukerens kontekst og oppgaver</li>
+           <li>En sammensatt prosess</li>
+           <li>Informasjonsinnhenting</li>
+           <li>Intervjuer</li>
+           <li>Lesning av dokumentasjon</li>
+           <li>Observasjon</li>
+         </ul>
+
+         <h3>Hva er problemet og for hvem?</h3>
+         <p>Hva er problemet og for hvem? Det er viktig å skulle forstå kunde/brukeren om hva som er problemet, hva de forventer og ønsker og hvem de er. For å forstå hvem det er et problem for for kan man lage personas.</p>
+         <h3>Personas</h3>
+         <p>Personas handler om å indentifisere målgrupper og behov. En kort veiledning på å lage personas går slik:</p>
+         <ul>
+           <li>Datainnsamling og analyse</li>
+           <li>Bekrivelse av personas</li>
+           <li>Scenarier for problemer og ideutvikling</li>
+           <li>Få aksept fra kunde/organisasjon</li>
+         </ul>
+         <img src="img/pers.webp" height="400px" width="200px">
+         <h3>Typer personas</h3>
+         <ul>
+           <h3>Målrettet personas</h3>
+           <li>Hva vil den typiske brukeren gjøre på siden min? </li>
+           <li>Hvordan gjør brukeren det i dag?</li>
+           <li>Hvordan vil brukeren at det skal gjøres?</li>
+           <li>Krever at man har data på faktiske brukere, for eksempel intervjuer eller spørreskjema</li>
+         </ul>
+         <ul>
+           <h3>Rollebasert personas</h3>
+           <li>Rollebasert</li>
+           <li>Er også målrettet, fokus på oppførsel</li>
+           <li>Krever at man har store mengder data for å identifisere ulike roller, mål og behov</li>
+           -Analytics, intervjuer, observasjon, spørreskjema mm
+           <li>Ser typisk ting i en større kontekst, utenfor nettstedet:</li>
+           -Where will the product be used? What’s this role’s purpose? What business objectives are required of this role? Who else is impacted by the duties of this role? What functions are served by this role?
+           <li>Krevende, passer best i større prosjekter</li>
+
+
+         </ul>
+       </article>
+     </div>
+    </section>
+
+  <footer>
+   <div class="container">
+    <p><span class="highlight">Laget</span> av Christian Vian</p>
+   </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+     $(".menu").click(function(){
+       $("nav").slideToggle(500);
+     })
+   })
+  </script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Obligatorisk oppgave 2</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="headname">
+          <h1><span class="highlight">Design</span> Thinking</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Startside</a></li>
+            <li class="current"><a href="design.html">Design thinking</a></li>
+            <li><a href="analyse.html">Behovsanalyse</a></li>
+            <li><a href="info.html">IA</a></li>
+            <li><a href="utforming.html">UU</a></li>
+            <li><a href="gdpr.html">GDPR</a></li>
+            <li><a href="grafisk.html">Grafisk design</a></li>
+            <li><a href="prototyping.html">Prototyping og responsive design</a></li>
+          </ul>
+        </nav>
+       </div>
+       <div class="responsive-bar">
+        <h4 class="menu">Menu</h4>
+        <div style="clear: both"></div>
+       </div>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <article id="maincol">
+          <h1 class="page-title">Definisjon</h1>
+        <p>Design thinking kan bli definert som en prosess, altså en rekke med trinn og beslutninger på veien mot å løse et mål. Det handler om et rammeverk som hjelper oss å forstå hele prosessen fra ide til implementering, ikke bare om grafisk design.</p>
+
+       </artical>
+
+       <aside id="sidebar">
+        <h3>Prosess elementer</h3>
+         <ul>
+          <li>Trinn og beslutninger</li>
+          <li>Tidsestimering og variasjon</li>
+          <li> Løse opp avhengigheter</li>
+          <li>Ressursallokering</li>
+         </ul>
+         <h1>Design thinking prosess</h1>
+         <img src="img/Designthinking.jpg">
+         <ul>
+           <li>Forstå – Hva er egentlig problemet vi skal løse? Hvorfor skal vi lage et nettsted?</li>
+           <li>Forskning/observere/POV – Utviklerne gjør undersøkelser for å lære mer om hvordan problemet kan løses. For eksempel intervjuer med potensielle brukere, brukertester av konkurrerende nettsteder, spørreundersøkelser, markedsundersøkelser mm. Hva som konkret inngår her kommer an på problemet, på ressursene man har tilgjengelig, og på hvilke data man kan få tak i.</li>
+           <li>Tanker –Her utvikles ulike løsningsforslag. I andre prosjekter kaller vi dette brainstorming.</li>
+           <li>Prototyping – Den eller de beste ideene utvikles videre. Enten i form av skisser på papir, photoshop-tegninger, et skall i HTML/CSS, alt etter hva som er mest hensiktsmessig.</li>
+          <li>Testing – Den ferdige løsningen testes på brukerne, og eventuelle endringer gjøres. Testing bør gjøres i alle faser av prosjektet, men som et minimum må man teste den ferdige løsningen før den går live</li>
+          <li>Velge – Hvis man har lagd flere sett med skisser testes disse og den beste velges ut.</li>
+          <li>Implementering – Her bygger vi opp en ferdig løsning.</li>
+         </ul>
+      </aside>
+      </div>
+    </section>
+
+
+
+  <footer>
+   <div class="container">
+    <p><span class="highlight">Laget</span> av Christian Vian</p>
+   </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+     $(".menu").click(function(){
+       $("nav").slideToggle(500);
+     })
+   })
+  </script>
+  </body>
+</html>

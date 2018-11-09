@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Obligatorisk oppgave 2</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="headname">
+          <h1><span class="highlight">Prototyping</span> og responsivt design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Startside</a></li>
+            <li><a href="design.html">Design thinking</a></li>
+            <li><a href="analyse.html">Behovsanalyse</a></li>
+            <li><a href="info.html">IA</a></li>
+            <li><a href="utforming.html">UU</a></li>
+            <li><a href="gdpr.html">GDPR</a></li>
+            <li><a href="grafisk.html">Grafisk design</a></li>
+            <li class="current"><a href="prototyping.html">Prototyping og responsive design</a></li>
+          </ul>
+        </nav>
+       </div>
+       <div class="responsive-bar">
+        <h4 class="menu">Menu</h4>
+        <div style="clear: both"></div>
+       </div>
+    </header>
+
+    <section id="main">
+     <div class="container">
+       <article id="main-col">
+         <h3>Prototyping</h3>
+         <ul>
+           <li>Prototyper lages før et brukergrensesnitt programmeres</li>
+           <li>En prototype dokumenterer vår forståelse av brukerens behov og våre ideer utforming av brukegrensesnittet</li>
+           <li>Prototyper brukes til å få tidlige tilbakemeldinger på ideer, slik at vi sparer penger, tid og innsats</li>
+           <li>Det er lettere å endre en prototype enn et programmert brukergrensesnitt</li>
+         </ul>
+         <p>Det finnes forksjellige typer, vi har horizontal prototype og vertikal prototype. Vi har også Hi-fi og Lo-fi prototyper.</p>
+         <ul>
+           Hi-fi
+           <li>Mye interaksjon</li>
+           <li>Fungerende funksjonalitet</li>
+           <li>Krever mye innsats å lage</li>
+           <li>Forpliktende – vanskelige å kaste</li>
+           <li>Kan forveksles fra endelig produkt</li>
+         </ul>
+         <ul>
+           Lo-fi
+           <li>Lite eller ingen interaksjon</li>
+           <li>Ingen eller delvis fungerende funksjonalitet</li>
+           <li>Krever lite innsats å lage</li>
+           <li>Kan laget i papir</li>
+           <li>Uforpliktende og lette å kaste</li>
+           <li>Kan ikke forveksles med endelig produkt</li>
+         </ul>
+         <img src="img/showcase.jpg" height="400px" width="200px">
+         <h3>Responsive design</h3>
+         <p>Responsive design er kort fortalt nettløsninger som tilpasser seg alle skjermstørrelser. Uavhengig av hvilken enhet du bruker. Idag har de fleste en smart telefon eller et nettbrett, den kan de bruke til å surfe på nettet med og søke opp informasjon hvor som helst. Det er viktig å tenke på responsive design når man skal lage et nytt nettsted hvis man vil at den skal være brukervennelig. En god regel å ha i bakhodet når man designer er å tenke på å designe nettsted til mobil først også bygge seg opp fra der. Ikke alle nettsider idag er responsive og det ødelegger ikke bare for brukeropplevelsen men også for eierene av siden selv, de vil kunne miste potensielle brukere.</p>
+         <p>Når man skal lage en fluid layout er det viktig å tenke på rekkefølgen i HTML-koden, tenk på hvilke innholdelementer som skal komme etterhverandre: Header, Nav, Innhold, Siderbar etc, Footer.</p>
+
+       </article>
+     </div>
+    </section>
+
+
+
+  <footer>
+   <div class="container">
+    <p><span class="highlight">Laget</span> av Christian Vian</p>
+   </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+     $(".menu").click(function(){
+       $("nav").slideToggle(500);
+     })
+   })
+  </script>
+  </body>
+</html>
